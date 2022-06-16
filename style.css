@@ -1,0 +1,91 @@
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+:root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+main {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.first {
+    background-color: #E28525;
+    width: 33.3%;
+    height: 100%;
+}
+.first h2{
+    font-weight:bold; 
+}
+.sec {
+    background-color: #134C48;
+    width: 33.3%;
+    height: 100%;
+}
+.sec h2 {
+    font-weight: bold;
+}
+.thi {
+    background-color: #141620;
+    width: 33.3%;
+    height: 100%;
+}
+.thi h2 {
+    font-weight: bold;
+}
+.pad{
+    padding:1em;
+    font-weight:400;
+    color:white;
+    width:85%;
+}
+main button {
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 61%;
+    color: white;
+    font-size: 13.28px;
+    border-radius: 1.25rem;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.375rem 0.75rem;
+    -webkit-appearance: button;
+}
+main button:hover{
+    background-color: white;
+}
+main .first button:hover {
+    color: #E28525;
+}
+main .sec button:hover {
+    color: #134C48;
+}
+main .thi button:hover {
+    color: #141620;
+}
+img{
+    padding:1em;
+}
+button {
+    margin-left: 30%;
+    margin-top: 5%;
+    color: white;
+    font-size: 13.28px;
+    border-radius: 1.25rem;
+    display: inline-block;
+    background-color: #ff0000;
+    border: 1px solid orange;
+    padding: 0.375rem 0.75rem;
+    width:15%;
+    -webkit-appearance: button;
+}
